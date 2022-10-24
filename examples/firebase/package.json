@@ -1,0 +1,20 @@
+{
+  "name": "firebase",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --base /examples/firebase/",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "firebase": "^9.8.3",
+    "vue": "^3.2.25"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.3",
+    "vite": "^2.9.9",
+    "vite-plugin-windicss": "^1.8.4",
+    "unocss": "^0.39.3"
+  }
+}
