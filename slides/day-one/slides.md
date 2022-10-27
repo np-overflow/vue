@@ -10,7 +10,7 @@ fonts:
   weights: 200,400,600,800
 
 info: |
-  # Overflow Full Stack Bootcamp
+  # Overflow Vue Workshop
 
   Day one
 
@@ -23,8 +23,8 @@ src: introduction.md
 ---
 
 ---
-layout: cover
----
+
+## layout: cover
 
 # Web fundamentals
 
@@ -44,8 +44,8 @@ h1 {
 </style>
 
 ---
-layout: two-cols
----
+
+## layout: two-cols
 
 # How does the web work?
 
@@ -86,9 +86,9 @@ sequenceDiagram
 
 <v-clicks>
 
-* Indicates type of response
-* Number ranging from 100 - 599
-* Each range represents a different type of response!
+- Indicates type of response
+- Number ranging from 100 - 599
+- Each range represents a different type of response!
 
 </v-clicks>
 
@@ -105,8 +105,8 @@ sequenceDiagram
 </v-click>
 
 ---
-layout: center
----
+
+## layout: center
 
 # HTML, CSS, JS
 
@@ -124,20 +124,20 @@ h1 {
 </style>
 
 ---
-layout: two-cols
----
+
+## layout: two-cols
 
 # HTML, CSS, JS
 
-* HTML: Hypertext Markup Language
-  * Provides the content of your webpage
-  * Written in XML (Extensible Markup Language)
-  
-* CSS: Cascading Style Sheets
-  * Provides styling of your webpage
+- HTML: Hypertext Markup Language
+  - Provides the content of your webpage
+  - Written in XML (Extensible Markup Language)
+- CSS: Cascading Style Sheets
 
-* JS: Javascript
-  * Provides the functionality of your webpage
+  - Provides styling of your webpage
+
+- JS: Javascript
+  - Provides the functionality of your webpage
 
 ::right::
 
@@ -150,16 +150,16 @@ layout: two-cols
 </div>
 
 ---
-src: ./html.md
----
+
+## src: ./html.md
 
 ---
-src: ./js-part-1.md
----
+
+## src: ./js-part-1.md
 
 ---
-layout: cover
----
+
+## layout: cover
 
 # Games
 
@@ -178,10 +178,9 @@ h1 {
 }
 </style>
 
+---
 
----
-layout: cover
----
+## layout: cover
 
 # LONCH 🐔
 
@@ -201,8 +200,8 @@ h1 {
 </style>
 
 ---
-layout: cover
----
+
+## layout: cover
 
 # Web fundamentals + Vue
 
@@ -222,28 +221,28 @@ h1 {
 </style>
 
 ---
-src: ./js-part-2.md
----
+
+## src: ./js-part-2.md
 
 ---
-layout: center
----
+
+## layout: center
 
 # An HTML file
 
 ---
-src: ./html-file-structure.md
----
+
+## src: ./html-file-structure.md
 
 ---
-layout: center
----
+
+## layout: center
 
 # 5 minutes break
 
 ---
-layout: center
----
+
+## layout: center
 
 # Vue
 
@@ -261,18 +260,18 @@ h1 {
 </style>
 
 ---
-src: ./vue.md
----
+
+## src: ./vue.md
 
 ---
-layout: center
----
+
+## layout: center
 
 # 10 minutes break
 
 ---
-layout: center
----
+
+## layout: center
 
 # CSS
 
@@ -290,12 +289,12 @@ h1 {
 </style>
 
 ---
-src: ./css.md
----
+
+## src: ./css.md
 
 ---
-layout: cover
----
+
+## layout: cover
 
 # Practical time
 
@@ -320,7 +319,6 @@ h1 {
 
 4.30pm - 5.15pm
 
-* Build a to do list
-* **Bonus 🏆**: Add funny styles
-* **Bonus 🏆**: Add grouping for your to do items
-
+- Build a to do list
+- **Bonus 🏆**: Add funny styles
+- **Bonus 🏆**: Add grouping for your to do items
