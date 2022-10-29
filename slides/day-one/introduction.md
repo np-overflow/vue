@@ -1,7 +1,6 @@
 ---
 layout: cover
 ---
-
 # Overflow Vue Workshop
 
 Day [1]

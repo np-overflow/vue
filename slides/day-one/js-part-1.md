@@ -185,7 +185,7 @@ console.log(everywhere)
 
 ##### `const`
 
-Used for variables that **shouldn't be updated**
+Used for variables that **shouldn't and cannot be updated**
 
 <Runner code="console.log('T0411111B')">
 
@@ -272,11 +272,6 @@ console.log(friends[1])
 </Runner>
 </v-click>
 
----
-layout: center
----
-
-# 5 minutes break
 
 ---
 
@@ -303,6 +298,7 @@ This is object destructuring
 ```javascript {all|2}
 const jimmy = { name: 'Jimmy', age: 21, isCool: true, friends: ['John', 'Jane', 'Jim'] }
 const { age } = jimmy
+console.log(age)
 ```
 
 </Runner>

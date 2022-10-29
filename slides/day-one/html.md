@@ -138,8 +138,3 @@ layout: two-cols
 
 [^1]: [More about attributes](https://www.w3schools.com/htmL/html_attributes.asp)
 
----
-layout: center
----
-
-# Quiz

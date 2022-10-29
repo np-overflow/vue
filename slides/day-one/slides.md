@@ -25,9 +25,9 @@ src: introduction.md
 layout: cover
 ---
 
-# Web fundamentals
+# Web Fundamentals
 
-10.15am - 11.30pm
+6.35am - 7.20pm
 
 <style>
 h1 {
@@ -153,72 +153,32 @@ src: ./html.md
 ---
 
 ---
+layout: cover
+---
+
+# Break
+
+7.20pm - 7.30pm
+
+<style>
+h1 {
+  background-color: orange;
+  background-image: linear-gradient(45deg, orange 10%, orangered 50%);
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+</style>
+---
 src: ./js-part-1.md
 ---
 
----
-layout: cover
----
-
-# Games
-
-11.30am - 12.15pm
-
-<style>
-h1 {
-  background-color: orange;
-  background-image: linear-gradient(45deg, orange 10%, orangered 50%);
-  background-size: 100%;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-</style>
 
 
----
-layout: cover
----
 
-# LONCH 🐔
-
-12.15pm - 1.15pm
-
-<style>
-h1 {
-  background-color: orange;
-  background-image: linear-gradient(45deg, orange 10%, orangered 50%);
-  background-size: 100%;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-</style>
-
----
-layout: cover
----
-
-# Web fundamentals + Vue
-
-1.15pm - 4.30pm
-
-<style>
-h1 {
-  background-color: green;
-  background-image: -webkit-linear-gradient(315deg,#42d392 25%,#647eff);
-  background-size: 100%;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-</style>
 
 ---
 src: ./js-part-2.md
