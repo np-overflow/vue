@@ -1,8 +1,9 @@
 # HTML elements
 
-* Elements are the basic building blocks of what you see on a webpage
-  * Like text, buttons, etc!
-* Elements usually contain other elements
+* Elements are the **basic building blocks** of what you see on a webpage
+  * They can be anything: text, buttons, links, and more!
+* Some elements usually contain other elements within them
+  * In this case, the element containing other elements is known as the _parent_ and the element inside another is a _child_
 
 <br/>
 
@@ -21,12 +22,12 @@ layout: two-cols
 
 # HTML tags
 
-* Specify the type of element
+* Specifies what the element is
 * Many types of elements you can choose from [^1]
   * Headings
   * Buttons
   * Input fields
-  * Cat 🙀
+  * Cat??? 🙀
 
 *Create a tag* by wrapping an element type in `<` and `>`
 
@@ -66,7 +67,7 @@ Every tag **needs** a closing tag, which is created by wrapping the element type
 </RunnerWebsite>
 </div>
 
-[^1]: [List of HTML tags, please read at your own free time](https://www.w3schools.com/TAGs/)
+[^1]: [A list of HTML tags; read at your own free time!](https://www.w3schools.com/TAGs/)
 
 ---
 layout: two-cols
@@ -76,10 +77,12 @@ layout: two-cols
 
 # HTML attributes
 
-* Customize elements [^1]
+* Additional values that configure the elements or adjust their behavior in various ways [^1]
+* Some examples of attributes:
   * `style`
-  * `type`
-  * etc
+  * `type` (commonly used with `input` tags)
+  * `className`
+  * `id`
 
 <br />
 

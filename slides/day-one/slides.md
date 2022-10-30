@@ -48,17 +48,21 @@ layout: two-cols
 
 # How does the web work?
 
-HTTP: HyperText Transfer Protocol [^1]
+HTTP: Hypertext Transfer Protocol [^1]
 
 <v-click>
 
 Sending data (files) over the internet
+
+* The foundation of any data exchange on the Web
 
 </v-click>
 
 <v-click>
 
 Request --> Response
+
+* A client-server protocol; requests are initiated by the recipient, usually the Web browser
 
 </v-click>
 
@@ -85,21 +89,20 @@ sequenceDiagram
 
 <v-clicks>
 
-* Indicates type of response
-* Number ranging from 100 - 599
-* Each range represents a different type of response!
+* Indicates the type of response; each range represents a different kind
+* Number ranging from `100` - `599`
 
 </v-clicks>
 
 <v-click>
 
-| Range     | Type                  | Common examples           |
-| --------- | --------------------- | ------------------------- |
-| 100 - 199 | Information responses | 101 Switching Protocol    |
-| 200 - 299 | Successful responses  | 200 OK                    |
-| 300 - 399 | Redirection messages  | 302 Moved Permanently     |
-| 400 - 499 | Client errors         | 400 Bad Request           |
-| 500 - 599 | Server errors         | 503 Internal Server Error |
+| Range         | Type                  | Common examples             |
+| ------------- | --------------------- | --------------------------- |
+| `100` - `199` | Information responses | `101` Switching Protocol    |
+| `200` - `299` | Successful responses  | `200` OK                    |
+| `300` - `399` | Redirection messages  | `301` Moved Permanently     |
+| `400` - `499` | Client errors         | `404` Not Found             |
+| `500` - `599` | Server errors         | `503` Service Unavailable   |
 
 </v-click>
 
@@ -130,12 +133,11 @@ layout: two-cols
 
 * HTML: Hypertext Markup Language
   * Provides the content of your webpage
-  * Written in XML (Extensible Markup Language)
-  
+
 * CSS: Cascading Style Sheets
   * Provides styling of your webpage
 
-* JS: Javascript
+* JS: JavaScript
   * Provides the functionality of your webpage
 
 ::right::

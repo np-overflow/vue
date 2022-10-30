@@ -2,7 +2,7 @@
 layout: two-cols
 ---
 
-# Javascript
+# JavaScript
 
 * Also called ECMAScript
 * High level language that is used to provide logic for web applications
