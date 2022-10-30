@@ -27,7 +27,7 @@ layout: cover
 
 # Web Fundamentals
 
-6.35am - 7.20pm
+6.35pm - 7.20pm
 
 <style>
 h1 {
