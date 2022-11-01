@@ -155,12 +155,22 @@ src: ./html.md
 ---
 
 ---
+layout: center
+---
+
+# A HTML file
+
+---
+src: ./html-file-structure.md
+---
+
+---
 layout: cover
 ---
 
 # Break
 
-7.20pm - 7.30pm
+7.35pm - 7.45pm
 
 <style>
 h1 {
@@ -178,29 +188,10 @@ h1 {
 src: ./js-part-1.md
 ---
 
-
-
-
-
 ---
 src: ./js-part-2.md
 ---
 
----
-layout: center
----
-
-# An HTML file
-
----
-src: ./html-file-structure.md
----
-
----
-layout: center
----
-
-# 5 minutes break
 
 ---
 layout: center
