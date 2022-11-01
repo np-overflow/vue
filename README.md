@@ -1,8 +1,10 @@
 # Vue Workshops Resources
 
-This repository contains all the resources for the full-stack Bootcamp.
+This repository contains all the resources for the Vue workshops.
 
-Here are the details of the Bootcamp:
+Here are the details of the workshops.
+
+Both workshops are hybrid and will be streamed on MS Teams.
 
 | Date             | Time            | Location |
 |------------------|-----------------|----------|
@@ -26,7 +28,7 @@ And here are some links to the examples:
 
 | Day | Topic    | Link                  | Permalink                                              |
 | --- | -------- | --------------------- | ------------------------------------------------------ |
-| 2   | Firebase | [Firebase](/examples/firebase) | [Firebase](https://bootcamp.np-overflow.club/examples/firebase) |
+| 2   | Firebase | [Firebase](/examples/firebase) | [Firebase](https://vue.np-overflow.club/examples/firebase) |
 
 ### Overflow EXCO
 
