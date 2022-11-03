@@ -223,9 +223,6 @@ src: ./vue.md
 
 
 * Build a to do list
-* **Bonus 🏆**: Add funny styles
-* **Bonus 🏆**: Add grouping for your to do items
-
 
 ---
 layout: cover

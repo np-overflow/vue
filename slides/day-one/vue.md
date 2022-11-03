@@ -226,7 +226,7 @@ layout: two-cols
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <script>
+    <script type="module">
       import { createApp } from 'https://unpkg.com/vue@3.2.37/dist/vue.esm-browser.js'
     </script>
     <style></style>
@@ -243,12 +243,11 @@ layout: two-cols
 # Vue
 
 * Create a Vue application with the `createApp` function
-* A Vue application needs a root component
 * It also needs to know where to "show" out application on the page
   * We use the `mount` function for that
 
 ```html
-<script>
+<script type="module">
     import {createApp} from 'https://unpkg.com/vue@3.2.37/dist/vue.esm-browser.js'
 
     const app = createApp({
@@ -260,6 +259,7 @@ layout: two-cols
     app.mount('#app') // <- this will tell Vue to show our application at any element with id 'app'
 </script>
 ```
+
 ```html
 <body>
     <div id="app"></div> <!-- Create a new div here with id "app"-->
@@ -329,6 +329,9 @@ return {
 
 [^1]: [Default directives](https://vuejs.org/api/built-in-directives.html#built-in-directives)
 
+---
+layout: two-cols
+---
 
 # Vue reactivity
 
@@ -341,8 +344,14 @@ return {
 
 First, import `ref` and `reactive`
 
+
+
+::right::
+
+`{ index.html }`
+
 ```html {all|2}
-<script>
+<script type="module">
   import { createApp, ref, reactive } from 'https://unpkg.com/vue@3.2.37/dist/vue.esm-browser.js'
   const app = createApp({
     template: `
@@ -361,7 +370,7 @@ First, import `ref` and `reactive`
 <br/>
 
 ```html {all|5|6-8|11|12|all}
-<script>
+<script type="module">
   import { createApp, ref, reactive } from 'https://unpkg.com/vue@3.2.37/dist/vue.esm-browser.js'
   const app = createApp({
     setup() {
@@ -387,7 +396,7 @@ First, import `ref` and `reactive`
 <br/>
 
 ```html {all|5-7|13-14|all}
-<script>
+<script type="module">
   import { createApp, ref, reactive } from 'https://unpkg.com/vue@3.2.37/dist/vue.esm-browser.js'
   const app = createApp({
     setup() {
@@ -413,7 +422,7 @@ First, import `ref` and `reactive`
   values change
 
 ```html {all|5-7|13-14|all}
-<script>
+<script type="module">
   import { createApp, ref, reactive } from 'https://unpkg.com/vue@3.2.37/dist/vue.esm-browser.js'
   const app = createApp({
     setup() {
@@ -442,7 +451,7 @@ First, import `ref` and `reactive`
 `watch` --- specify what you want to watch, and it'll only run when the value changes
 
 ```html {all|5|5-7|all}
-<script>
+<script type="module">
   import { createApp, ref, reactive, watch } from 'https://unpkg.com/vue@3.2.37/dist/vue.esm-browser.js'
   const app = createApp({
     setup() {
@@ -471,7 +480,7 @@ First, import `ref` and `reactive`
 However, unlike `watch`, we do not have access to the previous value
 
 ```html {all|5|5-7|all}
-<script>
+<script type="module">
   import { createApp, ref, reactive, watchEffect } from 'https://unpkg.com/vue@3.2.37/dist/vue.esm-browser.js'
   const app = createApp({
     setup() {

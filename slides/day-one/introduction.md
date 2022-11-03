@@ -56,11 +56,11 @@ How's everyone doing today?
 | Time            | Activity          |
 | --------------- | ----------------- |
 | 6.30pm - 6.35pm | Arrival           |
-| 6.35pm - 7.20pm | Web fundamentals  |
+| 6.35pm - 7.00pm | Web fundamentals  |
+| 7.00pm - 7.20pm | Javascript        |
 | 7.20pm - 7.30pm | Break             |
-| 7.30pm - 8.15pm | Javascript        |
-| 8.15pm - 8.30pm | Structure of HTML |
-
+| 7.30pm - 7.45pm | Structure of HTML |
+| 7.45pm - 8.30pm | VueJS |
 ---
 
 # Finding your way around things

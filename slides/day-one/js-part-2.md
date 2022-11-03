@@ -165,6 +165,17 @@ startAssignment()
 
 Now we actually take time to do the assignment!
 
+We can also call APIs
+```javascript
+async function calldogapi() {
+  let response = await fetch("https://dog.ceo/api/breeds/image/random");
+  let data = await response.json();
+}
+calldogapi();
+```
+
+
+
 ---
 
 # Code splitting
