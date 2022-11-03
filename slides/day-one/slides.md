@@ -27,7 +27,7 @@ layout: cover
 
 # Web Fundamentals
 
-6.35pm - 7.20pm
+6.35pm – 7.20pm
 
 <style>
 h1 {
@@ -68,7 +68,7 @@ Request --> Response
 
 ::right::
 
-<div v-click class="flex h-full items-center">
+<div v-after class="flex h-full items-center">
 
 ```mermaid {scale:0.5}
 sequenceDiagram
@@ -154,14 +154,13 @@ layout: two-cols
 src: ./html.md
 ---
 
-
 ---
 layout: cover
 ---
 
 # Break
 
-7.35pm - 7.45pm
+7.20pm – 7.30pm
 
 <style>
 h1 {
@@ -181,6 +180,8 @@ src: ./js-part-1.md
 
 
 
+
+
 ---
 src: ./js-part-2.md
 ---
@@ -189,11 +190,18 @@ src: ./js-part-2.md
 layout: center
 ---
 
-# A HTML file
+# An HTML file
 
 ---
 src: ./html-file-structure.md
 ---
+
+---
+layout: center
+---
+
+# 5 minutes break
+
 ---
 layout: center
 ---
@@ -218,22 +226,41 @@ src: ./vue.md
 ---
 
 ---
+layout: center
+---
 
-# Practical time
+# 10 minutes break
 
+---
+layout: center
+---
 
-* Build a to do list
-* **Bonus 🏆**: Add funny styles
-* **Bonus 🏆**: Add grouping for your to do items
+# CSS
 
+<style>
+h1 {
+  background-color: red;
+  background-image: linear-gradient(315deg, red 15%, orange);
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+</style>
+
+---
+src: ./css.md
+---
 
 ---
 layout: cover
 ---
 
-# Thank you for comming !
+# Practical time
 
-(☞ﾟヮﾟ)☞ ☜(ﾟヮﾟ☜)
+4.30pm – 5.30pm
 
 <style>
 h1 {
@@ -248,9 +275,13 @@ h1 {
 }
 </style>
 
-<div flex="~ col" class="h-full justify-center">
+---
 
- <img class="w-64 self-center" src="https://user-images.githubusercontent.com/53942938/199658874-9a7c189b-4c1c-4e34-ac0c-09d01e0ae8ad.png"/> 
+# Practical time
 
-</div>
+4.30pm – 5.15pm
+
+* Build a to do list
+* **Bonus 🏆**: Add funny styles
+* **Bonus 🏆**: Add grouping for your to do items
 

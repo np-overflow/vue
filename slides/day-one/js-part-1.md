@@ -4,8 +4,8 @@ layout: two-cols
 
 # JavaScript
 
-* Also called ECMAScript
-* High level language that is used to provide logic for web applications
+* Also called ECMAScript (named after [Ecma](https://en.wikipedia.org/wiki/Ecma_International), the organisation behind the language)
+* A high-level language that is used to provide logic for web applications
 
 * Used on servers and browsers
 * Very speed 🚄
@@ -106,7 +106,7 @@ Multi-line comment (start with `/*` and end with `*/`. You can also add extra `*
  * The asterisk on this line is just to make it look nice
  You could remove it if you want, but now it looks less nice :<
  */
-console.log('This will show in the console!'); 
+console.log('This will show in the console!');
 ```
 
 </Runner>
@@ -320,8 +320,8 @@ console.log(age)
 ```javascript
 if (<condition 1>) {
   // Code to execute if condition 1 is true
-} 
-else if (<condition 2>) { 
+}
+else if (<condition 2>) {
   // Code to execute if condition 1 is false and condition 2 is true
 }
 else {

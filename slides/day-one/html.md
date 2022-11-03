@@ -2,8 +2,10 @@
 
 * Elements are the **basic building blocks** of what you see on a webpage
   * They can be anything: text, buttons, links, and more!
-* Some elements usually contain other elements within them
-  * In this case, the element containing other elements is known as the _parent_ and the element inside another is a _child_
+* Some elements usually contain other elements within them; there are some terminologies commonly used to describe the elements and their relationships to each other
+    * The element containing other elements is known as the _parent_
+    * The element inside another is a _child_
+    * Elements in a parent are known as _siblings_ to each other
 
 <br/>
 
@@ -23,11 +25,11 @@ layout: two-cols
 # HTML tags
 
 * Specifies what the element is
-* Many types of elements you can choose from [^1]
-  * Headings
-  * Buttons
-  * Input fields
-  * Cat??? 🙀
+* Many types of elements you can choose from: [^1]
+  * headings (`h1` to `h6`)
+  * buttons
+  * input fields (`input`)
+  * containers (`div` and `span` )
 
 *Create a tag* by wrapping an element type in `<` and `>`
 
@@ -41,7 +43,7 @@ Every tag **needs** a closing tag, which is created by wrapping the element type
 
 <RunnerWebsite code="<h1>hello</h1><h2>Smaller hello</h2>">
 
-```html {all|1,3|4,6|all}
+```html
 <h1>
   hello
 </h1>
@@ -58,7 +60,7 @@ Every tag **needs** a closing tag, which is created by wrapping the element type
 
 <RunnerWebsite code="<button>BUTTOTOOTTN</button>">
 
-```html {all|1,3}
+```html
 <button>
   BUTTOTOOTTN
 </button>
@@ -90,12 +92,12 @@ layout: two-cols
 
 <RunnerWebsite code='<div style="padding: 0.3em;"><input type="submit"/><br/><input type="date"/><br/><input type="checkbox"/></div>'>
 
-```html {all|2,4,6|all}
-<input 
+```html
+<input
   type="submit" />
-<input 
+<input
   type="datetime" />
-<input 
+<input
   type="checkbox" />
 ```
 
@@ -110,12 +112,12 @@ layout: two-cols
 
 <RunnerWebsite code='<h1 style="color: red;">hello</h1><h2 style="color: blue;">Smaller hello</h2>'>
 
-```html {all|2,6|all}
-<h1 
+```html
+<h1
   style="color: red;">
   hello
 </h1>
-<h2 
+<h2
   style="color: blue;">
   Smaller hello
 </h2>
@@ -129,8 +131,8 @@ layout: two-cols
 
 <RunnerWebsite code='<button style="background: red;">BUTTOTOOTTN</button>'>
 
-```html {all|2|all}
-<button 
+```html
+<button
   style="background: red;">
   BUTTOTOOTTN
 </button>
