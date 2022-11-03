@@ -83,6 +83,12 @@ sequenceDiagram
 
 [^1]: [Learn more](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
 
+<!--
+* HTTP: a protocol for transmitting hypermedia documents (e.g., HTML files, video, audio)
+  * HTTPS: an extension of HTTP which adds security features, but has the same underlying protocol
+* Basis lies on two things: sending data over the internet + request and response
+-->
+
 ---
 
 # HTTP status codes
@@ -105,6 +111,14 @@ sequenceDiagram
 | `500` - `599` | Server errors         | `503` Service Unavailable   |
 
 </v-click>
+
+<!--
+* Because HTTP is heavily based on interactions, things can go wrong in many places
+* Codes give you an indiciation of how things went
+
+Explanation:
+2XX to 1XX to 4XX to 5XX to 3XX
+-->
 
 ---
 layout: center
@@ -284,4 +298,3 @@ h1 {
 * Build a to do list
 * **Bonus 🏆**: Add funny styles
 * **Bonus 🏆**: Add grouping for your to do items
-

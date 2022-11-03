@@ -71,6 +71,10 @@ Every tag **needs** a closing tag, which is created by wrapping the element type
 
 [^1]: [A list of HTML tags; read at your own free time!](https://www.w3schools.com/TAGs/)
 
+<!--
+Give a demo about how a website is built using HTML elements. Engage the audience!!1!
+-->
+
 ---
 layout: two-cols
 ---
@@ -143,3 +147,6 @@ layout: two-cols
 
 [^1]: [More about attributes](https://www.w3schools.com/htmL/html_attributes.asp)
 
+<!--
+Give another demo about what we can use with commonly-used tags. Point out that some attributes make no sense (`src` with `h1`)
+-->
