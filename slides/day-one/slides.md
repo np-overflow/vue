@@ -154,15 +154,6 @@ layout: two-cols
 src: ./html.md
 ---
 
----
-layout: center
----
-
-# A HTML file
-
----
-src: ./html-file-structure.md
----
 
 ---
 layout: cover
@@ -188,11 +179,21 @@ h1 {
 src: ./js-part-1.md
 ---
 
+
+
 ---
 src: ./js-part-2.md
 ---
 
+---
+layout: center
+---
 
+# A HTML file
+
+---
+src: ./html-file-structure.md
+---
 ---
 layout: center
 ---
