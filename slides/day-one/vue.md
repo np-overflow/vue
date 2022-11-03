@@ -447,8 +447,7 @@ First, import `ref` and `reactive`
 # Vue watchers
 
 * Watchers are used to watch for changes in a reactive value
-
-`watch` --- specify what you want to watch, and it'll only run when the value changes
+* `watch` --- specify what you want to watch, and it'll only run when the value changes
 
 ```html {all|5|5-7|all}
 <script type="module">
@@ -475,11 +474,9 @@ First, import `ref` and `reactive`
 
 # Vue watchers
 
-`watchEffect`, runs whenever any reactive value used is changed
+`watchEffect`, runs whenever any reactive value used is changed. However, unlike `watch`, we do not have access to the previous value
 
-However, unlike `watch`, we do not have access to the previous value
-
-```html {all|5|5-7|all}
+```html {all|5|5-7|all} {maxHeight:'100'}
 <script type="module">
   import { createApp, ref, reactive, watchEffect } from 'https://unpkg.com/vue@3.2.37/dist/vue.esm-browser.js'
   const app = createApp({
