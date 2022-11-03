@@ -329,13 +329,6 @@ return {
 
 [^1]: [Default directives](https://vuejs.org/api/built-in-directives.html#built-in-directives)
 
----
-layout: center
----
-
-# Quiz
-
----
 
 # Vue reactivity
 

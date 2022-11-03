@@ -217,41 +217,22 @@ src: ./vue.md
 ---
 
 ---
-layout: center
----
 
-# 10 minutes break
+# Practical time
 
----
-layout: center
----
 
-# CSS
+* Build a to do list
+* **Bonus 🏆**: Add funny styles
+* **Bonus 🏆**: Add grouping for your to do items
 
-<style>
-h1 {
-  background-color: red;
-  background-image: linear-gradient(315deg, red 15%, orange);
-  background-size: 100%;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-</style>
-
----
-src: ./css.md
----
 
 ---
 layout: cover
 ---
 
-# Practical time
+# Thank you for comming !
 
-4.30pm - 5.30pm
+(☞ﾟヮﾟ)☞ ☜(ﾟヮﾟ☜)
 
 <style>
 h1 {
@@ -266,13 +247,9 @@ h1 {
 }
 </style>
 
----
+<div flex="~ col" class="h-full justify-center">
 
-# Practical time
+ <img class="w-64 self-center" src="https://user-images.githubusercontent.com/53942938/199658874-9a7c189b-4c1c-4e34-ac0c-09d01e0ae8ad.png"/> 
 
-4.30pm - 5.15pm
-
-* Build a to do list
-* **Bonus 🏆**: Add funny styles
-* **Bonus 🏆**: Add grouping for your to do items
+</div>
 
