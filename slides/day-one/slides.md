@@ -27,7 +27,7 @@ layout: cover
 
 # Web Fundamentals
 
-6.35pm – 7.20pm
+6.35pm – 7.00pm
 
 <style>
 h1 {
@@ -168,6 +168,18 @@ layout: two-cols
 src: ./html.md
 ---
 
+
+---
+src: ./js-part-1.md
+---
+
+
+
+
+
+---
+src: ./js-part-2.md
+---
 ---
 layout: cover
 ---
@@ -189,32 +201,14 @@ h1 {
 }
 </style>
 ---
-src: ./js-part-1.md
----
-
-
-
-
-
----
-src: ./js-part-2.md
----
-
----
 layout: center
 ---
 
-# An HTML file
+# A HTML file
 
 ---
 src: ./html-file-structure.md
 ---
-
----
-layout: center
----
-
-# 5 minutes break
 
 ---
 layout: center
