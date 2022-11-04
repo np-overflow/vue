@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   },
   nitro: {
     output: {
-      dir: '../../../dist/examples/nuxt-daisyui'
+      publicDir: '../../../dist/examples/nuxt-daisyui'
     }
   }
 })
