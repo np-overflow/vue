@@ -22,13 +22,13 @@ Here are some links to the slides:
 | Day | Link                    | Permalink                                                |
 |-----|-------------------------|----------------------------------------------------------|
 | 1   | [Day one](/day-one)     | [Day one](https://vue.np-overflow.club/day-one)     |
-| 2   | [Day two](/day-two)     | [Day two](https://vue.np-overflow.club/day-two)     |
+<!-- | 2   | [Day two](/day-two)     | [Day two](https://vue.np-overflow.club/day-two)     | -->
 
 And here are some links to the examples:
 
 | Day | Topic    | Link                  | Permalink                                              |
 | --- | -------- | --------------------- | ------------------------------------------------------ |
-| 2   | Firebase | [Firebase](/examples/firebase) | [Firebase](https://vue.np-overflow.club/examples/firebase) |
+<!-- | 2   | Firebase | [Firebase](/examples/firebase) | [Firebase](https://vue.np-overflow.club/examples/firebase) | -->
 
 ### Overflow EXCO
 

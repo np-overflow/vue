@@ -9,7 +9,7 @@ function createHTML(md) {
         '<!DOCTYPE html>',
         '<html lang="en">',
         '<head>',
-        '    <title>Overflow full-stack bootcamp</title>',
+        '    <title>Overflow Vue Session</title>',
         '    <style>',
         '        [un-cloak] {',
         '            display: none;',
