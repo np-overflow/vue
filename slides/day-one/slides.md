@@ -237,9 +237,11 @@ src: ./vue.md
 layout: two-cols
 ---
 
-# Thank you For Comming!
+# Thank you For Coming!
 
 (☞ﾟヮﾟ)☞ ☜(ﾟヮﾟ☜)
+
+tinyurl.com/overflowvue1
 
 <style>
 h1 {
