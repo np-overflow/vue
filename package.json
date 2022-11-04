@@ -8,7 +8,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "build": "rimraf dist/ && pnpm -r run build && node index.js"
+    "build": "rimraf dist/ && pnpm -r --parallel run build && node index.js"
   },
   "dependencies": {
     "slidev-theme-geist": "^0.8.1"

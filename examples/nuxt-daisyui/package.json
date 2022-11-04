@@ -1,13 +1,13 @@
 {
   "private": true,
   "scripts": {
-    "build": "nuxt generate",
+    "build": "nuxt generate && mkdir -p ../../dist/examples/nuxt-daisyui && cp -a .output/public/. ../../dist/examples/nuxt-daisyui",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "nuxt": "3.0.0-rc.12"
+    "nuxt": "3.0.0-rc.13"
   }
 }

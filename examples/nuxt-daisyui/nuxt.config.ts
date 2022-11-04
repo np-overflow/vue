@@ -3,9 +3,4 @@ export default defineNuxtConfig({
   app: {
     baseURL: '/examples/nuxt-daisyui/'
   },
-  nitro: {
-    output: {
-      publicDir: '../../../dist/examples/nuxt-daisyui'
-    }
-  }
 })
