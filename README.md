@@ -26,9 +26,9 @@ Here are some links to the slides:
 
 And here are some links to the examples:
 
-| Day | Topic        | Link                               | Permalink                                                      |
-| --- | ------------ | ---------------------------------- | -------------------------------------------------------------- |
-| 2   | Nuxt DaisyUI | [Firebase](/examples/nuxt-daisyui) | [Firebase](https://vue.np-overflow.club/examples/nuxt-daisyui) |
+| Day | Topic        | Link                                   | Permalink                                                          |
+| --- | ------------ | -------------------------------------- | ------------------------------------------------------------------ |
+| 2   | Nuxt DaisyUI | [Nuxt DaisyUI](/examples/nuxt-daisyui) | [Nuxt DaisyUI](https://vue.np-overflow.club/examples/nuxt-daisyui) |
 
 ### Overflow EXCO
 

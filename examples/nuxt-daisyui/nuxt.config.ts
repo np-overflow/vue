@@ -2,6 +2,11 @@
 export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss', '@nuxtjs/color-mode'],
   app: {
-    baseURL: '/examples/nuxt-daisyui/'
+    baseURL: process.env.NODE_ENV === 'production' ? '/examples/nuxt-daisyui/' : undefined
+  },
+  colorMode: {
+    preference: 'system', // default theme
+    dataValue: 'theme', // activate data-theme in <html> tag
+    classSuffix: '',
   },
 })
