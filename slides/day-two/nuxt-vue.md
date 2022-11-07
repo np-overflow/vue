@@ -2,18 +2,17 @@
 layout: two-cols
 ---
 
-# Vite + Vue ❤️
+# Vue + Nuxt = ❤
 
 <v-clicks>
 
-* Vite is a rapid frontend development tool
+* Nuxt is a framework for Vue
+* Built in routing, data fetching utilities, etc
 * Optimized for speed
-  * Near instant loading
+  * Near instant loading powered by Vite
   * See your changes right after saving the file
 * Build your Vue project for production
   * Automagically bundles and optimizes your code
-* Extensible
-  * Support for Vue, React, Svelte... the list goes on
 * Allows you to use libraries from [NPM](https://npmjs.com) (Node Package Manager) and other cool Vue features
 
 </v-clicks>
@@ -22,9 +21,9 @@ layout: two-cols
 
 <div class="h-full flex items-center justify-center">
   <div class="flex items-center justify-center text-7xl">
-    <img class="w-32" src="https://api.iconify.design/logos:vitejs.svg"/>
-      😍
     <img class="w-32" src="https://api.iconify.design/logos:vue.svg"/>
+      😍
+    <img class="w-40" src="https://api.iconify.design/logos:nuxt-icon.svg"/>
   </div>
 </div>
 
@@ -42,51 +41,14 @@ layout: center
 
 ---
 
-# Creating a Vite project
+# Creating a Nuxt project
 
-You need to install these things first:
-
-* NodeJS
-* NPM
-* Firebase CLI
+* We will be using GitPod
+* Click [here](https://gitpod.io/#https://github.com/np-overflow/vue) to get started
 
 ---
 
-# NodeJS and NPM
-
-1. Download the `exe` installer file
-
-* If you're on a Mac, just run the `curl get.volta.sh | bash` command in Terminal
-
-2. Run the installer
-3. Run the following commands in Powershell (or Terminal if you're on macOS)
-
-[Link to download](https://docs.volta.sh/guide/getting-started#windows-installation)
-
-```bash
-volta install node
-volta install npm
-volta install pnpm
-```
-
----
-
-# Creating a Vite project
-
-To create your project, run the command in Powershell (or Terminal)
-
-```bash
-cd /replace/with/your/favorite/directory
-pnpm create vite
-```
-
-The directory should look something like `C:\Users\qingu\Desktop`
-
-Select the `vue` project type
-
----
-
-# Vite
+# Nuxt project structure
 
 * `index.html`
   * Starting point of the Vite application
@@ -101,7 +63,7 @@ Select the `vue` project type
 # Directory layout
 
 | Path           | Purpose                             |
-|----------------|-------------------------------------|
+| -------------- | ----------------------------------- |
 | `App.vue`      | Root Component                      |
 | `pages/`       | Different pages of your application |
 | `layouts/`     | Layouts that each page will use     |

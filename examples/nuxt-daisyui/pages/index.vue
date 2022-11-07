@@ -4,6 +4,8 @@
 <template>
   <div>
     This is the homepage
+    <br />
+    <br />
     <NuxtLink to="/theme" class="btn">Customize theme</NuxtLink>
   </div>
 </template>

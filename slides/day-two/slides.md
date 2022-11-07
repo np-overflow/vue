@@ -10,14 +10,13 @@ fonts:
   weights: 200,400,600,800
 
 info: |
-  # Overflow Full Stack Bootcamp
+  # Overflow Vue Workshop
 
-  Day two
+  Part two
 
   Links to other slides:
-    * [Day one](https://bootcamp.np-overflow.club/day-one)
-    * [Day two](https://bootcamp.np-overflow.club/day-two)
-    * [Day three](https://bootcamp.np-overflow.club/day-three)
+    * [Part one](https://vue.np-overflow.club/day-one)
+    * [Part two](https://vue.np-overflow.club/day-two)
 
 src: introduction.md
 ---
@@ -26,11 +25,7 @@ src: introduction.md
 layout: cover
 ---
 
-# Recap
-
-What we went through yesterday
-
-10.15am - 12.00pm
+# NodeJS and NPM
 
 <style>
 h1 {
@@ -46,86 +41,15 @@ h1 {
 </style>
 
 ---
-src: recap.md
+src: node-npm.md
 ---
 
 ---
 layout: cover
 ---
 
-# LONCH 🐔
-
-12.00pm - 1.15pm
-
-<style>
-h1 {
-  background-color: orange;
-  background-image: linear-gradient(45deg, orange 10%, orangered 50%);
-  background-size: 100%;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-</style>
+<img class="w-100" src="https://api.iconify.design/logos:nuxt.svg"/>
 
 ---
-src: vite-vue.md
----
-
----
-layout: cover
----
-
-<div class="flex gap-10 items-center">
-
-<h1 class="m-0">
-  Firebase
-</h1>
-
-<img class="w-14" src="https://api.iconify.design/logos:firebase.svg"/>
-
-</div>
-
-<style>
-h1 {
-  background-color: orange;
-  background-image: linear-gradient(45deg, orange 10%, orangered 50%);
-  background-size: 100%;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-</style>
-
-An overview of Firebase Authentication, Realtime Database
-
----
-src: firebase.md
----
-
----
-layout: center
----
-
-# Firebase Auth
-
-<style>
-h1 {
-  background-color: red;
-  background-image: linear-gradient(315deg,red 25%, orange);
-  background-size: 100%;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-</style>
-
----
-src: firebase-auth.md
+src: nuxt-vue.md
 ---
