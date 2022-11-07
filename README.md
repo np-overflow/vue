@@ -7,7 +7,7 @@ Here are the details of the workshops.
 Both workshops are hybrid and will be streamed on MS Teams.
 
 | Date             | Time            | Location |
-|------------------|-----------------|----------|
+| ---------------- | --------------- | -------- |
 | 4 November 2022  | 6.30pm - 8.30pm | 27-05-10 |
 | 11 November 2022 | 6.30pm - 8.30pm | 27-05-10 |
 
@@ -19,16 +19,16 @@ You probably don't need to go through the actual contents of this repository.
 
 Here are some links to the slides:
 
-| Day | Link                    | Permalink                                                |
-|-----|-------------------------|----------------------------------------------------------|
-| 1   | [Day one](/day-one)     | [Day one](https://vue.np-overflow.club/day-one)     |
-<!-- | 2   | [Day two](/day-two)     | [Day two](https://vue.np-overflow.club/day-two)     | -->
+| Day | Link                | Permalink                                       |
+| --- | ------------------- | ----------------------------------------------- |
+| 1   | [Day one](/day-one) | [Day one](https://vue.np-overflow.club/day-one) |
+| 2   | [Day two](/day-two) | [Day two](https://vue.np-overflow.club/day-two) |
 
 And here are some links to the examples:
 
-| Day | Topic    | Link                  | Permalink                                              |
-| --- | -------- | --------------------- | ------------------------------------------------------ |
-<!-- | 2   | Firebase | [Firebase](/examples/firebase) | [Firebase](https://vue.np-overflow.club/examples/firebase) | -->
+| Day | Topic        | Link                               | Permalink                                                      |
+| --- | ------------ | ---------------------------------- | -------------------------------------------------------------- |
+| 2   | Nuxt DaisyUI | [Firebase](/examples/nuxt-daisyui) | [Firebase](https://vue.np-overflow.club/examples/nuxt-daisyui) |
 
 ### Overflow EXCO
 
