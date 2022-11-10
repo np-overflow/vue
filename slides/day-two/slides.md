@@ -42,7 +42,7 @@ h1 {
 
 ---
 
-# What is GitPod
+# What is GitPod?
 
 * Remote VSCode environment for development
 * Everything is set up _by us, for you_

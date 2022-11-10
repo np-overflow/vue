@@ -2,10 +2,11 @@
 layout: cover
 ---
 
-# NodeJS and NPM
+# Node.js and npm
 
 <style>
 h1 {
+  line-height: 1.15em;
   background-color: #059669;
   background-image: linear-gradient(45deg, #059669 10%, #84cc16 50%);
   background-size: 100%;
@@ -19,29 +20,29 @@ h1 {
 
 ---
 
-# NodeJS
+# Node.js
 
 <v-clicks>
 
 * JS can run in the browser, and in a server
-* NodeJS is a **server runtime** for JS
+* Node.js is a **server runtime** for JS
   * It provides the "tools" you need to run JS on a server
-* Try out NodeJS by typing `node` in your terminal
+* Try out Node.js by typing `node` in your terminal
 
 </v-clicks>
 
 ---
 
-# NPM
+# npm
 
 <v-clicks>
 
-* NPM is a **package manager** for NodeJS
+* npm is a **package manager** for Node.js
 * Install and manage packages
 * Use packages created by other people!
   * Don't build everything yourself
 
-**We will be using a variation of NPM called PNPM**
+**We will be using a variation of npm called pnpm**
 
 </v-clicks>
 

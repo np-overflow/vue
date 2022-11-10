@@ -12,14 +12,14 @@ layout: two-cols
 
 <v-clicks>
 
-* Nuxt is a framework for Vue, built on NodeJS
+* Nuxt is a framework for Vue, built on Node.js
 * Built in routing, data fetching utilities, etc
 * Optimized for speed
   * Near instant loading powered by Vite [^1]
   * See your changes right after saving the file
 * Build your Vue project for production
   * Automagically bundles and optimizes your code
-* Allows you to use libraries from [NPM](https://npmjs.com) (Node Package Manager) and other cool Vue features
+* Allows you to use libraries from [npm](https://npmjs.com) (Node Package Manager) and other cool Vue features
 
 </v-clicks>
 
@@ -77,7 +77,7 @@ These are the most important files/folders. [See even more here](https://v3.nuxt
 
 | File/folder      | Description                    |
 | ---------------- | ------------------------------ |
-| `package.json`   | The NPM packages your app uses |
+| `package.json`   | The npm packages your app uses |
 | `app.vue`        | Starting point of your Vue app |
 | `nuxt.config.ts` | Nuxt configuration file        |
 | `layouts/`       | Layouts for your pages         |
