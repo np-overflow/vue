@@ -102,7 +102,7 @@ layout: two-cols
 
 `Component.vue`
 
-```vue {all|1-2|1|4-5|7-8|all}
+```vue {all|1|2|5,7|6|all}
 <script setup>
 const I_CAN_BE_USED_IN_THE_TEMPLATE = 'hello'
 </script>
