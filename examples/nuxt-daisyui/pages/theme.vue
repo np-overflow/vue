@@ -3,7 +3,7 @@
     <button class="btn">Hello daisyUI</button>
     <select class="select w-full max-w-xs" v-model="colorMode.preference">
       <option disabled selected>Theme</option>
-      <option v-for="theme of themes" :key="theme">{{ theme }}</option>
+      <option v-for="theme in themes" :key="theme">{{ theme }}</option>
     </select>
   </div>
 </template>
