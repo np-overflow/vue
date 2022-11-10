@@ -4,3 +4,7 @@ tasks:
 ports:
   - port: 3030
     onOpen: open-preview
+
+vscode:
+  extensions:
+    - Vue.volar
