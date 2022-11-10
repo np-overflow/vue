@@ -60,11 +60,9 @@ src: node-npm.md
 ---
 
 ---
-layout: cover
----
-
-<img class="w-100" src="https://api.iconify.design/logos:nuxt.svg"/>
-
----
 src: nuxt-vue.md
+---
+
+---
+src: css-tailwind-daisyui.md
 ---

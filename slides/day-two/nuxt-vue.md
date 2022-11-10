@@ -1,4 +1,10 @@
 ---
+layout: cover
+---
+
+<img class="w-100" src="https://api.iconify.design/logos:nuxt.svg"/>
+
+---
 layout: two-cols
 ---
 
@@ -55,33 +61,28 @@ We've created a starter project for you!
 cd examples/nuxt-starter && pnpm dev
 ```
 
-2. Admire the starter project while waiting for others
+2. Click "Open Preview"
+
+![GitPod Prompt](/images/gitpod-prompt.png)
+
+3. Admire the starter project while waiting for others
 
 </Task>
 
 ---
 
-# Nuxt project structure
+# Project structure
 
-* `index.html`
-  * Starting point of the Vite application
-* `public`
-  * Folder containing static assets, i.e. images, etc
-  * Files in this folder will retain its original file name when deploying
-* `src`
-  * Folder containing source code
+These are the most important files/folders. [See even more here](https://v3.nuxtjs.org/guide/directory-structure/nuxt).
 
----
-
-# Directory layout
-
-| Path           | Purpose                             |
-| -------------- | ----------------------------------- |
-| `App.vue`      | Root Component                      |
-| `pages/`       | Different pages of your application |
-| `layouts/`     | Layouts that each page will use     |
-| `composables/` | Composable functions                |
-| `components/`  | Vue components                      |
+| File/folder      | Description                    |
+| ---------------- | ------------------------------ |
+| `package.json`   | The NPM packages your app uses |
+| `app.vue`        | Starting point of your Vue app |
+| `nuxt.config.ts` | Nuxt configuration file        |
+| `layouts/`       | Layouts for your pages         |
+| `pages`          | Pages of your app              |
+| `public/`        | Static files (e.g. images)     |
 
 ---
 layout: two-cols
@@ -112,155 +113,4 @@ const I_CAN_BE_USED_IN_THE_TEMPLATE = 'hello'
 
 <style>
 </style>
-```
-
----
-
-# Vue Composables
-
-* Splitting your reactive variables and logic into its own function
-* Makes your reactive logic **reusable**
-* Example
-  * [VueUse](https://vueuse.org/functions.html), a collection of composables
-
-#### Conventions
-
-* File name: `snake-case`
-* Composable name: `use*`
-  * i.e. `useSomething`, `useFirebase`
-
----
-layout: two-cols
----
-
-# Vue component lifecycle
-
-* Whenever a component shows on the screen, or disappears on the screen, we can tell Vue to call a function
-* These functions are called lifecycle hooks
-
-[Read more](https://vuejs.org/guide/essentials/lifecycle.html)
-
-::right::
-
-`Component.vue`
-
-```vue {all|3|5-7|9-11|all}
-
-<script setup>
-import {onMounted, onBeforeUnmount} from 'vue'
-
-onMounted(function () {
-    console.log('The component showed on the screen')
-})
-
-onBeforeUnmount(function () {
-    console.log('The component is about to disappear')
-})
-</script>
-
-<template>
-    <h1>HELLO!</h1>
-</template>
-```
-
----
-layout: two-cols
----
-
-# Vue props
-
-* Props allow you to pass Javascript values to your Vue components
-* To define the props of a component, use `defineProps`
-* `defineProps` takes in an `Object` containing the types of your props
-
-::right::
-
-`Message.vue`
-
-```html
-
-<script setup>
-    const props = defineProps({
-        personName: String,
-        msg: String
-    })
-</script>
-
-<template>
-    <span>{{ props.personName }} sent {{ props.msg }}</span>
-</template>
-```
-
-`Chat.vue`
-
-```html {all|6}
-<script setup>
-    import Message from 'Message.vue'
-</script>
-
-<template>
-    <Message person-name="Qin Guan" msg="HELLO!"></Message>
-</template>
-```
-
----
-layout: two-cols
----
-
-# Vue slots
-
-* Slots allow you to add template content to your Vue components
-* In contrast to props, which only allows you to add Javascript values
-* Add slots to a component by using `<slot></slot>`
-
-::right::
-
-`StyledHeader.vue`
-
-```html {all|3}
-<template>
-    <h1 class="text-red-500">
-        <slot></slot>
-    </h1>
-</template>
-```
-
-`Page.vue`
-
-```html {all|6}
-<script setup>
-    import StyledHeader from 'StyledHeader.vue'
-</script>
-
-<template>
-    <StyledHeader>This will be red</StyledHeader>
-</template>
-```
-
----
-layout: two-cols
----
-
-# Vue directives
-
-These are some directives we might be using later
-
-* `v-bind`: "binds" a reactive value to a specified attribute
-
-Please familiarize yourself with the default directives available!
-
-::right::
-
-`{ setup }`
-
-```javascript
-return {
-    classNames: ref('text-red-100')
-}
-```
-
-`{ template }`
-
-```html
-<input v-bind:class="classNames"/>
 ```
