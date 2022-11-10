@@ -18,7 +18,7 @@ info: |
     * [Part one](https://vue.np-overflow.club/day-one)
     * [Part two](https://vue.np-overflow.club/day-two)
 
-src: introduction.md
+src: 1-introduction.md
 ---
 
 ---
@@ -56,13 +56,17 @@ h1 {
 </Task>
 
 ---
-src: node-npm.md
+src: 2-node-npm.md
 ---
 
 ---
-src: nuxt-vue.md
+src: 3-nuxt-vue.md
 ---
 
 ---
-src: css-tailwind-daisyui.md
+src: 4-css-tailwind-daisyui.md
+---
+
+---
+src: 5-practical.md
 ---
