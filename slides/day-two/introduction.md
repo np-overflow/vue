@@ -2,15 +2,15 @@
 layout: cover
 ---
 
-# Overflow Full Stack Bootcamp
+# Overflow Vue Workshop
 
-Day [one]
+Day [two]
 
-10am -- 5.30pm
+6.30pm - 8.30pm
 
 <div class="m-6 abs-br">
 
-Before we start, open the slides on your laptop: **https://bootcamp.np-overflow.club**
+Before we start, open the slides on your laptop: **https://vue.np-overflow.club**
 
 </div>
 
@@ -50,14 +50,16 @@ How's everyone doing today?
 
 # Agenda of the day
 
-| Time              | Activity               |
-|-------------------|------------------------|
-| 9.55am - 10.15am  | Arrival and attendance |
-| 10.15am - 12.00pm | Recap + Vite w/ Vue    |
-| 12.00pm - 1.15pm  | LONCH 🐔               |
-| 1.15pm - 3.00pm   | Firebase Auth + RTDB   |
-| 3.00pm - 4.30pm   | Practical time 🧪      |
-| 4.30pm - 5.30pm   | Games                  |
+| Time            | Activity              |
+| --------------- | --------------------- |
+| 6.30pm - 6.35pm | Settling down         |
+| 6.35pm - 6.45pm | GitPod                |
+| 6.45pm - 6.55pm | NuxtJS                |
+| 7.00pm - 7.20pm | Basics of CSS         |
+| 7.20pm - 7.30pm | TailwindCSS + DaisyUI |
+| 7.30pm - 7.35pm | Break                 |
+| 7.35pm - 8.30pm | Practical time!       |
+
 
 ---
 
@@ -65,7 +67,7 @@ How's everyone doing today?
 
 ### Resources
 
-* [https://bootcamp.np-overflow.club](https://bootcamp.np-overflow.club)
+* [https://vue.np-overflow.club](https://vue.np-overflow.club)
   * All resources will be accessible from this URL, including this presentation!
 
 ---
@@ -74,15 +76,15 @@ How's everyone doing today?
 
 <div grid="~ cols-3" class="gap-20 mt-25">
 <div class="flex flex-col text-center items-center">
-  <img class="h-32 w-32" src="https://api.iconify.design/material-symbols:school-outline.svg" />
+  <img class="h-32 w-32" src="https://api.iconify.design/eos-icons:machine-learning.svg" />
   <h4>Create a conducive learning environment</h4>
 </div>
 <div class="flex flex-col text-center items-center">
-  <img class="h-32 w-32" src="https://api.iconify.design/material-symbols:front-hand-outline.svg" />
-  <h4>Take initiative, be proactive</h4>
+  <img class="h-32 w-32" src="https://api.iconify.design/akar-icons:chat-question.svg" />
+  <h4>Dont be afraid to ask questions</h4>
 </div>
 <div class="flex flex-col text-center items-center">
-  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="h-32 text-orange-600 w-32" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M10.5 15.5c0 .37-.1.7-.28 1c-.34-.59-.98-1-1.72-1s-1.38.41-1.72 1c-.17-.3-.28-.63-.28-1c0-1.1.9-2 2-2s2 .9 2 2M23 15v3c0 .55-.45 1-1 1h-1v1c0 1.11-.89 2-2 2H5a2 2 0 0 1-2-2v-1H2c-.55 0-1-.45-1-1v-3c0-.55.45-1 1-1h1c0-3.87 3.13-7 7-7h1V5.73c-.6-.34-1-.99-1-1.73c0-1.1.9-2 2-2s2 .9 2 2c0 .74-.4 1.39-1 1.73V7h1c3.87 0 7 3.13 7 7h1c.55 0 1 .45 1 1m-2 1h-2v-2c0-2.76-2.24-5-5-5h-4c-2.76 0-5 2.24-5 5v2H3v1h2v3h14v-3h2v-1m-5.5-2.5c-1.1 0-2 .9-2 2c0 .37.11.7.28 1c.34-.59.98-1 1.72-1s1.38.41 1.72 1c.18-.3.28-.63.28-1a2 2 0 0 0-2-2Z"></path></svg>  
+  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="h-32 text-orange-600 w-32" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M10.5 15.5c0 .37-.1.7-.28 1c-.34-.59-.98-1-1.72-1s-1.38.41-1.72 1c-.17-.3-.28-.63-.28-1c0-1.1.9-2 2-2s2 .9 2 2M23 15v3c0 .55-.45 1-1 1h-1v1c0 1.11-.89 2-2 2H5a2 2 0 0 1-2-2v-1H2c-.55 0-1-.45-1-1v-3c0-.55.45-1 1-1h1c0-3.87 3.13-7 7-7h1V5.73c-.6-.34-1-.99-1-1.73c0-1.1.9-2 2-2s2 .9 2 2c0 .74-.4 1.39-1 1.73V7h1c3.87 0 7 3.13 7 7h1c.55 0 1 .45 1 1m-2 1h-2v-2c0-2.76-2.24-5-5-5h-4c-2.76 0-5 2.24-5 5v2H3v1h2v3h14v-3h2v-1m-5.5-2.5c-1.1 0-2 .9-2 2c0 .37.11.7.28 1c.34-.59.98-1 1.72-1s1.38.41 1.72 1c.18-.3.28-.63.28-1a2 2 0 0 0-2-2Z"></path></svg>
 <h4>Have fun!</h4>
 </div>
 </div>

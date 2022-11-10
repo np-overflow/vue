@@ -25,12 +25,12 @@ src: introduction.md
 layout: cover
 ---
 
-# NodeJS and NPM
+# GitPod
 
 <style>
 h1 {
-  background-color: #4c46b1;
-  background-image: linear-gradient(45deg, #4c46b1 10%, #8b62ff 50%);
+  background-color: #f59e0b;
+  background-image: linear-gradient(45deg, #f59e0b 10%, #eab308 50%);
   background-size: 100%;
   background-clip: text;
   -webkit-background-clip: text;
@@ -39,6 +39,21 @@ h1 {
   -moz-text-fill-color: transparent;
 }
 </style>
+
+---
+
+# What is GitPod
+
+* Remote VSCode environment for development
+* Everything is set up _by us, for you_
+
+<br/>
+
+<Task>
+
+1. Click **[this link](https://gitpod.io/#https://github.com/np-overflow/vue)** to open the environment for this week
+
+</Task>
 
 ---
 src: node-npm.md

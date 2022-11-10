@@ -2,14 +2,14 @@
 layout: two-cols
 ---
 
-# Vue + Nuxt = ❤
+# Vue + Nuxt = <fluent-emoji-green-heart/>
 
 <v-clicks>
 
-* Nuxt is a framework for Vue
+* Nuxt is a framework for Vue, built on NodeJS
 * Built in routing, data fetching utilities, etc
 * Optimized for speed
-  * Near instant loading powered by Vite
+  * Near instant loading powered by Vite [^1]
   * See your changes right after saving the file
 * Build your Vue project for production
   * Automagically bundles and optimizes your code
@@ -20,12 +20,14 @@ layout: two-cols
 ::right::
 
 <div class="h-full flex items-center justify-center">
-  <div class="flex items-center justify-center text-7xl">
+  <div class="flex items-center justify-center text-7xl gap-4">
     <img class="w-32" src="https://api.iconify.design/logos:vue.svg"/>
-      😍
+    <fluent-emoji-smiling-face-with-heart-eyes/>
     <img class="w-40" src="https://api.iconify.design/logos:nuxt-icon.svg"/>
   </div>
 </div>
+
+[^1]: [What is Vite?](https://vitejs.dev/guide/why.html#why-vite)
 
 ---
 layout: center
@@ -33,18 +35,29 @@ layout: center
 
 <div class="text-center">
 
-# ⚠️ Demo on screen ⚠️
+# <fluent-emoji-warning/> Demo on screen <fluent-emoji-warning/>
 
-🙌 Remember to follow along! 🙌
+<fluent-emoji-raising-hands/> Remember to follow along! <fluent-emoji-raising-hands/>
 
 </div>
 
 ---
 
-# Creating a Nuxt project
+# Get started with Nuxt
 
-* We will be using GitPod
-* Click [here](https://gitpod.io/#https://github.com/np-overflow/vue) to get started
+We've created a starter project for you!
+
+<Task>
+
+1. Copy and paste the following code into your terminal:
+
+```bash
+cd examples/nuxt-starter && pnpm dev
+```
+
+2. Admire the starter project while waiting for others
+
+</Task>
 
 ---
 

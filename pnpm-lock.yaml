@@ -25,6 +25,12 @@ importers:
       daisyui: 2.38.1
       nuxt: 3.0.0-rc.13
 
+  examples/nuxt-starter:
+    specifiers:
+      nuxt: 3.0.0-rc.13
+    devDependencies:
+      nuxt: 3.0.0-rc.13
+
   slides/day-one:
     specifiers:
       '@slidev/cli': ^0.36.10
@@ -37,6 +43,7 @@ importers:
 
   slides/day-two:
     specifiers:
+      '@iconify-json/fluent-emoji': ^1.1.5
       '@slidev/cli': ^0.36.10
       '@slidev/theme-default': '*'
       '@slidev/theme-seriph': '*'
@@ -44,6 +51,8 @@ importers:
       '@slidev/cli': 0.36.10
       '@slidev/theme-default': 0.21.2
       '@slidev/theme-seriph': 0.21.2
+    devDependencies:
+      '@iconify-json/fluent-emoji': 1.1.5
 
 packages:
 
@@ -412,6 +421,12 @@ packages:
       '@iconify/types': 2.0.0
     dev: false
 
+  /@iconify-json/fluent-emoji/1.1.5:
+    resolution: {integrity: sha512-BouO7aRRXnHibdCcCQo+i5aFiQaGj0Wf1Wli+TCBi4oMedPRBdsalQiUVtTbsQRtHvW/swisHFY/ijLyCJsynw==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: true
+
   /@iconify-json/ph/1.1.2:
     resolution: {integrity: sha512-NuTdtt/UmuxIHS4hfdyv3BP5JiWikNkr81hFHXDScXlH0GUMdRSY/B5T9vDvbXDY/esMLFnIAXoFVDLsGinhpw==}
     dependencies:
@@ -420,7 +435,6 @@ packages:
 
   /@iconify/types/2.0.0:
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
-    dev: false
 
   /@iconify/utils/2.0.1:
     resolution: {integrity: sha512-t8IyICk25wgZL4YKn/2kYfjG5MGA6EWZlaUJZ1OEIku4V+kX9V900T5E4HIqS3hLyD6/RJET0zY4vxO9pHLHHw==}
@@ -572,6 +586,7 @@ packages:
   /@nuxt/kit/3.0.0-rc.13:
     resolution: {integrity: sha512-FYEnMRm4LvIUxygmBX/p5kykzSeBleUqCOfxervQFONkz5PVVYXEp1DDBINGR3xk01yuPElENuf+l59iEQ4q7g==}
     engines: {node: ^14.16.0 || ^16.10.0 || ^17.0.0 || ^18.0.0 || ^19.0.0}
+    requiresBuild: true
     dependencies:
       '@nuxt/schema': 3.0.0-rc.13
       c12: 0.2.13
@@ -1964,7 +1979,7 @@ packages:
       jiti: 1.16.0
       mlly: 0.5.16
       pathe: 0.3.9
-      pkg-types: 0.3.5
+      pkg-types: 0.3.6
       rc9: 1.2.2
 
   /cac/6.7.14:
@@ -5388,13 +5403,6 @@ packages:
     resolution: {integrity: sha512-udgsAY+fTnvv7kI7aaxbqwWNb0AHiB0qBO89PZKPkoTmGOgdbrHDKD+0B2X4uTfJ/FT1R09r9gTsjUjNJotuog==}
     engines: {node: '>=0.10.0'}
     dev: true
-
-  /pkg-types/0.3.5:
-    resolution: {integrity: sha512-VkxCBFVgQhNHYk9subx+HOhZ4jzynH11ah63LZsprTKwPCWG9pfWBlkElWFbvkP9BVR0dP1jS9xPdhaHQNK74Q==}
-    dependencies:
-      jsonc-parser: 3.2.0
-      mlly: 0.5.16
-      pathe: 0.3.9
 
   /pkg-types/0.3.6:
     resolution: {integrity: sha512-uQZutkkh6axl1GxDm5/+8ivVdwuJ5pyDGqJeSiIWIUWIqYiK3p9QKozN/Rv6eVvFoeSWkN1uoYeSDBwwBJBtbg==}
