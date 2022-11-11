@@ -6,6 +6,9 @@
     This is the homepage
     <br />
     <br />
-    <NuxtLink to="/theme" class="btn">Customize theme</NuxtLink>
+    <div class="flex gap-3">
+      <NuxtLink to="/theme" class="btn">Customize theme</NuxtLink>
+      <NuxtLink to="/tasks" class="btn btn-accent">To do list demo</NuxtLink>
+    </div>
   </div>
 </template>
