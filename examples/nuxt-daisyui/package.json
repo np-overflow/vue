@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "build": "nuxt generate && mkdir -p ../../dist/examples/nuxt-daisyui && cp -a .output/public/. ../../dist/examples/nuxt-daisyui",
+    "build": "nuxt generate && mkdir -p ../../dist/examples/nuxt-daisyui && cp -a dist/. ../../dist/examples/nuxt-daisyui",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
