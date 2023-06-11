@@ -1,20 +1,19 @@
 {
-  "name": "full-stack-bootcamp-resources",
+  "name": "vue-workshop",
   "version": "1.0.0",
-  "description": "",
+  "description": "Vue workshop by Overflow",
   "keywords": [],
   "license": "MIT",
-  "author": "",
+  "author": "Qin Guan",
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "build": "rimraf dist/ && pnpm -r --parallel run build && node index.js"
-  },
-  "dependencies": {
-    "slidev-theme-geist": "^0.8.1"
+    "build": "rimraf dist/ && vitepress build && pnpm -r --parallel run build"
   },
   "devDependencies": {
     "marked": "^5.0.5",
-    "rimraf": "^5.0.1"
+    "rimraf": "^5.0.1",
+    "vitepress": "1.0.0-beta.1",
+    "slidev-theme-geist": "^0.8.1"
   }
 }
