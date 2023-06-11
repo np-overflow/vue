@@ -19,16 +19,16 @@ You probably don't need to go through the actual contents of this repository.
 
 Here are some links to the slides:
 
-| Day | Link                | Permalink                                       |
-| --- | ------------------- | ----------------------------------------------- |
-| 1   | [Day one](/day-one) | [Day one](https://vue.np-overflow.club/day-one) |
-| 2   | [Day two](/day-two) | [Day two](https://vue.np-overflow.club/day-two) |
+| Day | Link                                            |
+| --- | ----------------------------------------------- |
+| 1   | [Day one](https://vue.np-overflow.club/day-one) |
+| 2   | [Day two](https://vue.np-overflow.club/day-two) |
 
 And here are some links to the examples:
 
-| Day | Topic        | Link                                   | Permalink                                                          |
-| --- | ------------ | -------------------------------------- | ------------------------------------------------------------------ |
-| 2   | Nuxt DaisyUI | [Nuxt DaisyUI](/examples/nuxt-daisyui) | [Nuxt DaisyUI](https://vue.np-overflow.club/examples/nuxt-daisyui) |
+| Day | Topic        | Link                                                               |
+| --- | ------------ | ------------------------------------------------------------------ |
+| 2   | Nuxt DaisyUI | [Nuxt DaisyUI](https://vue.np-overflow.club/examples/nuxt-daisyui) |
 
 ### Overflow EXCO
 
