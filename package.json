@@ -13,7 +13,7 @@
   "devDependencies": {
     "marked": "^9.1.6",
     "rimraf": "^5.0.5",
-    "vitepress": "1.0.0-rc.35",
+    "vitepress": "1.0.0-rc.36",
     "slidev-theme-geist": "^0.8.1"
   }
 }
