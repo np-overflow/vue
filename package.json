@@ -11,7 +11,7 @@
     "build": "rimraf dist/ && vitepress build && pnpm -r --parallel run build"
   },
   "devDependencies": {
-    "marked": "^9.1.6",
+    "marked": "^11.2.0",
     "rimraf": "^5.0.5",
     "vitepress": "1.0.0-rc.39",
     "slidev-theme-geist": "^0.8.1"
