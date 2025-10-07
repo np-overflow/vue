@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       marked:
-        specifier: ^12.0.1
-        version: 12.0.1
+        specifier: ^16.4.0
+        version: 16.4.0
       rimraf:
         specifier: ^5.0.5
         version: 5.0.5
@@ -3082,6 +3082,7 @@ packages:
 
   /acorn-import-assertions@1.9.0(acorn@8.11.3):
     resolution: {integrity: sha512-cmMwop9x+8KFhxvKrKfPYmN6/pKTYYHBqLa0DfvVZcKMJWNyWLnaqND7dx/qn66R7ewM1UX5XMaDVP5wlVTaVA==}
+    deprecated: package has been renamed to acorn-import-attributes
     peerDependencies:
       acorn: ^8
     dependencies:
@@ -6297,9 +6298,9 @@ packages:
       uc.micro: 2.0.0
     dev: false
 
-  /marked@12.0.1:
-    resolution: {integrity: sha512-Y1/V2yafOcOdWQCX0XpAKXzDakPOpn6U0YLxTJs3cww6VxOzZV1BTOOYWLvH3gX38cq+iLwljHHTnMtlDfg01Q==}
-    engines: {node: '>= 18'}
+  /marked@16.4.0:
+    resolution: {integrity: sha512-CTPAcRBq57cn3R8n3hwc2REddc28hjR7RzDXQ+lXLmMJYqn20BaI2cGw6QjgZGIgVfp2Wdfw4aMzgNteQ6qJgQ==}
+    engines: {node: '>= 20'}
     hasBin: true
     dev: true
 
@@ -8308,6 +8309,7 @@ packages:
 
   /shikiji-compat@0.9.19:
     resolution: {integrity: sha512-W0qrnED9VnVOSgEsv+gAZasjpPM1eESBI84iPGSvVx/qwcqL9/n+p8QUPW1Rc3Y8o8pXjJLNZDeOS9lPzdYA0w==}
+    deprecated: Deprecated, use @shikijs/compat instead
     dependencies:
       shikiji: 0.9.19
       shikiji-transformers: 0.9.19
